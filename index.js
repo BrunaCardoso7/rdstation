@@ -3,8 +3,8 @@ const axios = require('axios');
 const app = express();
 
 // Configurações do RD Station
-const CLIENT_ID = '2270ef90-ee25-4482-8750-64470868fe13';
-const CLIENT_SECRET = 'a6fa5ce552e342ee856ecbd992d807de';
+const CLIENT_ID = 'a3ae3ab4-35ec-49d7-96be-03637abdc10a';
+const CLIENT_SECRET = '5c14e3b60d4d4217aedbfa0ac8ae99a7';
 const REDIRECT_URI = 'https://rdstation.onrender.com/callback';
 
 // Endpoint para receber o code e trocar pelo access token
